@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #cdef9d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+}
+
+nav li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width:  100%;
+}
+
+form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover
+{
+    background-color: #fff;
+    color: #333;
+}
